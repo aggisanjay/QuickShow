@@ -186,7 +186,7 @@ const sendNewShowNotifications=inngest.createFunction(
     {id:'send-new-show-notifications'},
     {event:'app/show.added'},
     async({event})=>{
-        const {movieTilte}=event.data;
+        const {movieTitle}=event.data;
 
         const users=await User.find({})
 
@@ -194,7 +194,7 @@ const sendNewShowNotifications=inngest.createFunction(
            const userEmail=user.email;
            const userName=user.name;
            
-           const subject=`New Show Added: "${movieTilte}"`;
+           const subject=`New Show Added: "${movieTitle}"`;
            const body=`<div style="font-family: Arial, sans-serif; padding:20px;">
                 
                 <h2>Hello ${userName},</h2>
