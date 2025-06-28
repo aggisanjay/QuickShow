@@ -200,9 +200,6 @@ const sendNewShowNotifications=inngest.createFunction(
                 <h2>Hello ${userName},</h2>
                 <p>A new show has been added:</p>
                 <h3 style="color:#F84565;">${movieTilte}</h3>
-                <p>
-                  It starts at <strong>${new Date(show.showDateTime).toLocaleTimeString('en-US',{timeZone:'Asia/Kolkata'})}</strong>.
-                </p>
                 <p>Make sure to book your tickets now!</p>
                 <br/>
                 <p>Enjoy the show!<br/>- QuickShow Team</p>
