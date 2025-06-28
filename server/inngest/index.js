@@ -199,7 +199,7 @@ const sendNewShowNotifications=inngest.createFunction(
                 
                 <h2>Hello ${userName},</h2>
                 <p>A new show has been added:</p>
-                <h3 style="color:#F84565;">${movieTilte}</h3>
+                <h3 style="color:#F84565;">${movieTitle}</h3>
                 <p>Make sure to book your tickets now!</p>
                 <br/>
                 <p>Enjoy the show!<br/>- QuickShow Team</p>
